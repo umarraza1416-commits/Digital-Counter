@@ -1,0 +1,78 @@
+body {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWxvcHlwa3lveHphYWt0MmtkZDd2Z3hqZGRic2Q4d3AwZTMzbDluciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tNt8ZSSrwNHzQcPABV/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#heady {
+            width: 40vw;
+
+            color: #04411bb9;
+            border: 8px solid #065e34;
+            text-align: center;
+            background-color: #50c4abfd;
+            margin: 20px auto;
+            padding: 2px 2px;
+            border-radius: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+#navs {
+    background-color: #1f8b9e;
+    border: 5px solid #0a201586;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+
+#navs li a {
+    text-decoration: none;
+    padding: 5px 2px;
+    color: #09130e;
+
+}
+
+#navs li {
+    float: left;
+    list-style: none;
+    border: 2px solid #0f4155;
+    margin: 2px;
+    border-radius: 6px;
+    background-color: #00c4c7;
+    width: 14vw;
+    text-align: center;
+    padding: 3px;
+
+}
+
+#navs ul {
+    overflow: auto;
+    padding: 1px 2px 1px 8px;
+    margin: 15px;
+
+
+}
+
+#navs li a:active {
+    color: #ffffff;
+    background-color: #13302a0e;
+    border: none;
+    border-radius: 7px;
+
+
+}
+
+#navs li a:hover {
+    color: #ffffff;
+    border: none;
+    background-color: none;
+    border-radius: 7px;
+}
+
+
+
+
+#navs li.inp {
+    float: right;
+    margin-right: 17px;
+}
