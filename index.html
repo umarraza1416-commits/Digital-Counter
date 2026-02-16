@@ -19,15 +19,7 @@
             height: 100vh;
             align-items: center;
         }
-        /* .divbox{
-            margin: auto;
-            margin-top: 25vh;
-            border: 4px solid rgba(115, 189, 189, 0.644);
-            background-color: aliceblue;
-            width: 80vw;
-            height: 30vh; 
-             */
-        
+
         form{
             align-items: center;
             margin: auto;
@@ -78,6 +70,18 @@
             margin: 10vh auto 0;
 
         }
+        a{
+            font-size: 24px;
+            text-decoration: none;
+            border: 2px solid rgba(0, 0, 0, 0.267);
+            border-radius: 8px;
+            padding: 2px;
+            background-color: rgba(0, 204, 255, 0.336);
+            color: #ffffff;
+            display: block;
+            margin: 10vh auto 0;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -86,9 +90,10 @@
         <form action="home.html" method="get">
         <label for="name"> Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" class="us" required><br><br>
-        &nbsp;&nbsp;<label for="date">Date:</label>
-        <input type="date" id="date" name="date" class="our" required><br><br>
+        &nbsp;&nbsp;&nbsp;<label for="age">Age:</label>
+        <input type="number" id="age" name="age" class="our" min="0" max="100" placeholder="Enter your age" required><br><br>
         <button type="submit" class="links">Submit</button>
+        <a href="home.html">Direct Open</a>
 </body>
 
 </html>
