@@ -14,13 +14,11 @@
     <style>
         body {
             background-color: rgb(220, 240, 245);
-            margin: 0;
-            padding: 0;
             height: 100vh;
             align-items: center;
         }
 
-        form{
+        form {
             align-items: center;
             margin: auto;
             margin-top: 20vh;
@@ -30,35 +28,40 @@
             border-radius: 12px;
 
         }
-        .us{
+
+        .us {
             margin-top: 9vh;
             margin-left: 6vw;
             margin-left: 4vw;
             width: 40vw;
             height: 3vh;
-            
-            
+
+
         }
-        label{
-             margin-top: 8vh;
+
+        label {
+            margin-top: 8vh;
             margin-left: 8vw;
             cursor: pointer;
-            
+
         }
-        .our{
+
+        .our {
             margin-top: 3vh;
             margin-left: 6vw;
             margin-left: 4vw;
             width: 40vw;
             height: 3vh;
         }
-        .go{
+
+        .go {
             text-align: center;
             color: rgb(103, 166, 221);
             border-radius: 10px;
             border: 4px solid rgb(103, 166, 221);
         }
-        .links{
+
+        .links {
             font-size: 24px;
             text-decoration: none;
             border: 2px solid rgba(30, 255, 0, 0.733);
@@ -70,7 +73,8 @@
             margin: 10vh auto 0;
 
         }
-        a{
+
+        a {
             font-size: 24px;
             text-decoration: none;
             border: 2px solid rgba(0, 0, 0, 0.267);
@@ -87,13 +91,18 @@
 
 <body>
     <h1 class="go">Fill The Form</h1>
-        <form action="home.html" method="get">
+    <form action="home.html" method="get">
         <label for="name"> Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" class="us" required><br><br>
         &nbsp;&nbsp;&nbsp;<label for="age">Age:</label>
-        <input type="number" id="age" name="age" class="our" min="0" max="100" placeholder="Enter your age" required><br><br>
+        <input type="number" id="age" name="age" class="our" min="0" max="100" placeholder="Enter your age"
+            required><br><br>
         <button type="submit" class="links">Submit</button>
         <a href="home.html">Direct Open</a>
+        <marquee direction="right" scrollamount="30">
+            <img src="hourse.gif" >
+        </marquee>
+        
 </body>
 
 </html>
