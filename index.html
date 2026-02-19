@@ -7,7 +7,7 @@
     <meta name="description" content="This is a digital counter website that help in counting and use as a tasbhi">
     <meta name="robot" content="follow, index">
     <meta name="author" content="Muhammad Umar Raza">
-    <meta name="keywords" content="html, css, js, website, web-development, digital-counter, counter, tasbhi, digital-tasbhi">
+    <meta name="keywords" content="html css js website web-development digital-counter counter tasbhi digital-tasbhi">
     <title>Verify_Digital_Counter_Website</title>
     <style>
         body {
@@ -21,7 +21,7 @@
             background-image: url('backs.gif');
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: ;
+            background-attachment:fixed;
         }
 
         .main {
@@ -73,7 +73,7 @@
             font-weight: bold;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             cursor: pointer;
-            color: rgb(0, 0, 0);
+            color: rgb(221, 198, 198);
         }
         .ag{
             display: flex;
@@ -87,7 +87,7 @@
             cursor: pointer;
             font-weight: bold;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: black;
+            color: rgb(221, 198, 198);
         }
         .sub{
             color: white;
@@ -106,15 +106,39 @@
         }
         .by{
             position: absolute;
-            font-size: 50px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            top: 12vh;
+            top: 15vh;
             left: 50%;
             transform: translateX(-50%);
             height: 6vh;
-
+            font-style: italic;
             text-align: center;
             color: rgba(32, 7, 56, 0.479);
+        }
+         a {
+            position: absolute;
+            font-size: 24px;
+            text-decoration: none;
+            border: 2px solid rgba(255, 0, 157, 0.342);
+            border-radius: 8px;
+            padding: 2px;
+            background-color: rgba(212, 15, 196, 0.418);
+            color: #ffffff;
+            display: block;
+            margin: 65vh auto 0;
+            text-align: center;
+        }
+        .or {
+            position: absolute;
+            font-size: 28px;
+            text-decoration: none;
+            padding: 2px;
+            color: #272525;
+            display: block;
+            margin: 54vh auto 0;
+            text-align: center;
+            font-weight: bold ;
+
         }
     </style>
 </head>
@@ -122,6 +146,9 @@
 <body>
     <div>
         <h1 class="by">By <br> Umar Raza </h1>
+     </div>
+     <div class="or">
+        <p>or</p>
     </div>
     <div class="main">
         <form action="home.html" method="get">
@@ -135,6 +162,7 @@
             </div>
             </form>
     </div>
+    <a href="home.html">Direct Open</a>
          
            
 
