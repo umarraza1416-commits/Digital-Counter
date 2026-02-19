@@ -4,105 +4,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a digital counter website that help in counting and use as a tasbhi">
+    <meta name="robot" content="follow, index">
     <meta name="author" content="Muhammad Umar Raza">
-    <meta name="description" content="My first counter website using html css and js">
-    <meta name="keywords" content=" html, css, js, website, counter, tasbhi, beads, digital-counter">
-    <meta name="robots" content="follow, index">
-    <title>
-        Digital_Counter_verify
-    </title>
+    <meta name="keywords" content="html, css, js, website, web-development, digital-counter, counter, tasbhi, digital-tasbhi">
+    <title>Verify_Digital_Counter_Website</title>
     <style>
         body {
-            background-color: rgb(220, 240, 245);
+            padding: 0;
+            margin: 0;
+            background-color: aliceblue;
             height: 100vh;
+            display: flex;
             align-items: center;
+            justify-content: center;
+            background-image: url('backs.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: ;
         }
 
-        form {
-            align-items: center;
-            margin: auto;
-            margin-top: 20vh;
-            border: 4px solid rgb(115, 189, 189);
+        .main {
+            border: 2px solid rgb(20, 4, 19);
+            background-color: #7530736b;
+            width: 80vmin;
             height: 30vh;
-            width: 80vw;
-            border-radius: 12px;
-
+            display: flex;
+            margin: 32vh auto;
+            box-shadow: -10px 10px 14px 10px rgb(44, 1, 42);
+            position: relative;
+            border-radius: 22px;
+            overflow: visible;
         }
 
-        .us {
-            margin-top: 9vh;
-            margin-left: 6vw;
-            margin-left: 4vw;
-            width: 40vw;
+        .name {
+            display: flex;
+            width: 50vmin;
+            position: absolute;
+            top: 10vh;
+            left: auto;
+            display: inline-block;
+            margin: -2vmin 22vmin;
             height: 3vh;
 
-
+            
         }
 
-        label {
-            margin-top: 8vh;
-            margin-left: 8vw;
+        .age {
+            display: flex;
+            width: 50vmin;
+            position: absolute;
+            top: 16vh;
+            left: auto;
+            display: inline-block;
+            margin: 2vmin 22vmin;
+            height: 3vh;
+            
+        }
+        .nm{
+                display: flex;
+            width: 50vmin;
+            top: 10vh;
+            left: auto;
+            display: inline-block;
+            margin: -1vmin 5vmin;
+            height: 3vh;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             cursor: pointer;
-
+            color: rgb(0, 0, 0);
         }
-
-        .our {
-            margin-top: 3vh;
-            margin-left: 6vw;
-            margin-left: 4vw;
-            width: 40vw;
+        .ag{
+            display: flex;
+            width: 50vmin;
+            top: 16vh;
+            left: auto;
+            display: inline-block;
+            margin: 3vmin 5vmin;
             height: 3vh;
+            font-size: 18px;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
         }
-
-        .go {
-            text-align: center;
-            color: rgb(103, 166, 221);
-            border-radius: 10px;
-            border: 4px solid rgb(103, 166, 221);
-        }
-
-        .links {
-            font-size: 24px;
-            text-decoration: none;
-            border: 2px solid rgba(30, 255, 0, 0.733);
-            border-radius: 8px;
+        .sub{
+            color: white;
+            background-color: rgba(68, 23, 126, 0.973);
+            border: 2px solid rgb(65, 23, 114);
+            width: 120px;
+            height: 6vh;
+            font-size: 20px;
+            border-radius: 9px;
             padding: 2px;
-            background-color: rgba(30, 255, 0, 0.733);
-            color: #ffffff;
-            display: block;
-            margin: 10vh auto 0;
-
+            position: absolute;
+            top: 33vh;
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
         }
+        .by{
+            position: absolute;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            top: 12vh;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 6vh;
 
-        a {
-            font-size: 24px;
-            text-decoration: none;
-            border: 2px solid rgba(0, 0, 0, 0.267);
-            border-radius: 8px;
-            padding: 2px;
-            background-color: rgba(0, 204, 255, 0.336);
-            color: #ffffff;
-            display: block;
-            margin: 10vh auto 0;
             text-align: center;
+            color: rgba(32, 7, 56, 0.479);
         }
     </style>
 </head>
 
 <body>
-    <h1 class="go">Fill The Form</h1>
-    <form action="home.html" method="get">
-        <label for="name"> Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" class="us" required><br><br>
-        &nbsp;&nbsp;&nbsp;<label for="age">Age:</label>
-        <input type="number" id="age" name="age" class="our" min="0" max="100" placeholder="Enter your age"
-            required><br><br>
-        <button type="submit" class="links">Submit</button>
-        <a href="home.html">Direct Open</a>
-        <marquee direction="right" scrollamount="30">
-            <img src="hourse.gif" >
-        </marquee>
-        
+    <div>
+        <h1 class="by">By <br> Umar Raza </h1>
+    </div>
+    <div class="main">
+        <form action="home.html" method="get">
+            <label for="name" class="name nm">Name:</label>
+            <input type="text" id="name" name="name" class="name" required
+                placeholder="Enter your name"><br>
+            <label for="age" class="age ag" class="ag">Age:</label>
+            <input type="number" id="age" name="age" class="age" min="0" max="150" required placeholder="Enter your age">
+            <div class="parent">
+                <button type="submit"class="sub">Submit</button>
+            </div>
+            </form>
+    </div>
+         
+           
+
 </body>
 
 </html>
